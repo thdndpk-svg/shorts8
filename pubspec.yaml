@@ -1,0 +1,19 @@
+name: shorts
+description: Auto Shorts Maker v2
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  video_player: ^2.8.2
+  path_provider: ^2.1.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
