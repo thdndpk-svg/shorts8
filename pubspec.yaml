@@ -1,7 +1,7 @@
 name: shorts
-description: YouTube to Shorts Auto Editor
+description: YouTube to Shorts Auto Editor - styleblue
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
@@ -14,6 +14,8 @@ dependencies:
   ffmpeg_kit_flutter_full_gpl: ^6.0.3
   path_provider: ^2.1.2
   permission_handler: ^11.3.1
+  in_app_purchase: ^3.1.13
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
